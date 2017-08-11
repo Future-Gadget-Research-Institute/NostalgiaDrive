@@ -1,0 +1,104 @@
+GUI Generator Update History
+============================
+
+v1.9
+----------------------------
+
+* Fix all ScriptableObject.CreateInstance warnings as detected in Unity 5.4 and above
+* Disable mipmap creation, by default, for texture generation
+* Remove "Registering <guisystem>" console messages (annoyance)
+* Cleanup some redundant & unused references in older code (minor performance improvements)
+* Fix multiple crash and display corruption issues when switching between play & edit modes
+* Fix issues with any gradient fill patterns being reset when switching between play & edit modes
+* Delete Layer verification popup window now has an explicit "cancel" button (OSX doesn't have window close icon)
+* Fix all GUI skin "missing style" warnings by explicit custom skin usage everywhere required
+
+v1.8
+----------------------------
+
+* Fix Unity 5 compatibility issues
+
+v1.7
+----------------------------
+
+* Exterior padding, per layer, now adjustable (previously always set to 2 pixels)
+* Interior & Exterior widths & padding now globally adjustable
+  - Also with an option to quickly adjust to next power of two dimension
+* Added many bounds checks to various fields
+
+
+v1.6
+----------------------------
+
+* Complete re-invention of the GUI Generator user interface
+* Added Layer Tools ( beginning with copy layer & drop shadow )
+* Massive reworking and cleaning of the core preparing for v1.7 features
+
+v1.5
+----------------------------
+
+* Added Line Gradient Fill Pattern
+
+v1.4
+----------------------------
+
+Layers:
+* Added Fill Patterns (major new feature)
+  * Angle Gradient
+  * Grid Gradient
+  * Radius Gradient
+  * Textured
+  * Solid Colour ( prior to Fill Patterns this was all that existed )
+
+
+v1.3
+----------------------------
+
+Layers:
+* GUI Generator Sprite Generator now supports multiple blended layers
+* Interior width (for each layer) can now be altered
+
+Corner Effects:
+* Sheared Corners
+* Blended Corners (mix two types of corner)
+
+Fixes:
+* Corner data now serializes correctly and isn't lost
+* Preview settings (zoom & colour) are now saved
+* General code cleanup & refactoring preparing for future features
+
+Menus:
+* Information submenu renamed to "Support" & added forum and documentation links
+
+v1.2
+----------------------------
+
+GUI Generator Editor Window:
+* Improved Pro Skin for better visibility
+
+Sprite Generator:
+* Individual Corner Styling (more styles to follow in future updates).
+
+v1.1
+----------------------------
+
+Effects:
+* Highlight Gradient (and other angle based effects) now visible within layer preview.
+* Highlight Gradient angle now has adjustable lighting angle
+
+Layout & Menus:
+* Window now called "Sprite Generator" from "Tools/GUI Generator" pending more generators in future releases
+* Editor UI (Sprite Generator) cleaned up and added Pro Skin
+* Added an About section with GUI Generator version and build information
+
+Sprite Generator:
+* Rearranged UI so that preview is always visible and less space wasted
+* Removed "Quick Preview" of effects
+* Generated Sprite Preview now auto rendered, "Preview" button removed
+* "Curviness" is now a slider
+
+v1.0
+----------------------------
+
+* Initial Release
+
