@@ -1,3 +1,4 @@
+sudo: required
 language: objective-c
 osx_image: xcode61
 rvm:
