@@ -26,14 +26,11 @@ public class UnitsInstance : MonoBehaviour
 	
 	void Update () 
 	{
-		for (int i = 0; i < unitList.Count; i++)
+		if (unitList[0].transform.position.x < player.position.x - space)
 		{
-			if (unitList[i].transform.position.x < player.position.x - space)
-			{
-				unitList[i].transform.position = unitList [unitList.Count - 1].transform.position + Vector3.right * space;
-				unitList.Insert (unitList.Count,unitList[i]);
-				unitList.RemoveAt (0);
-			}
+			unitList[0].transform.position = unitList [unitList.Count - 1].transform.position + Vector3.right * space;
+			unitList.Insert (unitList.Count,unitList[0]);
+			unitList.RemoveAt (0);
 		}
 	}
 }
