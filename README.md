@@ -7,4 +7,8 @@ My first unity game with @X-25
 
 It requires **Unity 5.6.2f1**(or higher version) to be built.
 
+<img src="https://github.com/Oblivion1221/Nostalgia_Drive/blob/master/screenshots/Screen%20Shot%202017-08-31%20at%2022.15.55.png" width="350">
+
+<img src="https://github.com/Oblivion1221/Nostalgia_Drive/blob/master/screenshots/Screen%20Shot%202017-08-31%20at%2022.15.32.png" width="350">
+
 ###### Updating...
