@@ -1,8 +1,6 @@
 # NostalgiaDrive
 ##### A meaningless name
 
-##### *[TechX](http://techxsummit.com) Capstone Project*
-
 My first unity game
 
 It requires **Unity 5.6.5f1**(or higher version) to be built.
