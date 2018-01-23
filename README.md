@@ -1,4 +1,4 @@
-# Nostalgia_Drive
+# NostalgiaDrive
 ##### A meaningless name
 
 ##### *[TechX](http://techxsummit.com) Capstone Project*
