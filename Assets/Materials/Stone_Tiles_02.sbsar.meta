@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 2c7d951013abea9448e365b897d69c68
+timeCreated: 1516676538
+licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
@@ -7,8 +9,8 @@ SubstanceImporter:
     name: Stone_Tiles_02
     prototypeName: Stone_Tiles_02
     shaderName: 
-    shader: {instanceID: 0}
-    shaderKeywords: 
+    shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _EMISSION _NORMALMAP _PARALLAXMAP _SPECGLOSSMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
@@ -125,10 +127,64 @@ SubstanceImporter:
       generateAllOutputs: 0
       animationUpdateRate: 0
     materialProperties:
-      serializedVersion: 2
-      texEnvs: {}
-      floats: {}
-      colors: {}
+      serializedVersion: 3
+      texEnvs:
+      - _BumpMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailAlbedoMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailMask:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailNormalMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _EmissionMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _MainTex:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _OcclusionMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _ParallaxMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _SpecGlossMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      floats:
+      - _BumpScale: 1
+      - _Cutoff: 0.5
+      - _DetailNormalMapScale: 1
+      - _DstBlend: 0
+      - _GlossMapScale: 1
+      - _Glossiness: 0.5
+      - _GlossyReflections: 1
+      - _Mode: 0
+      - _OcclusionStrength: 1
+      - _Parallax: 0.02
+      - _SmoothnessTextureChannel: 0
+      - _SpecularHighlights: 1
+      - _SrcBlend: 1
+      - _UVSec: 0
+      - _ZWrite: 1
+      colors:
+      - _Color: {r: 1, g: 1, b: 1, a: 1}
+      - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     textureParameters:
     - name: Stone_Tiles_02_Diffuse
       alphaSource: 5
@@ -145,7 +201,24 @@ SubstanceImporter:
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    textureAssignments: []
+    - name: Stone_Tiles_02_Height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 4137227465
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 4137227481
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 4137227490
+    - shaderProp: _SpecGlossMap
+      material: {instanceID: 0}
+      baseUID: 4137227462
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 

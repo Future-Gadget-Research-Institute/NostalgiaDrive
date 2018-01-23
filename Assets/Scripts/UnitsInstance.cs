@@ -7,6 +7,7 @@ public class UnitsInstance : MonoBehaviour
 	Transform player;
 	public List<GameObject> unitList = new List<GameObject>();
 	public int space = 21;
+
 	void Start () 
 	{
 		player = GameObject.Find ("Player").transform;

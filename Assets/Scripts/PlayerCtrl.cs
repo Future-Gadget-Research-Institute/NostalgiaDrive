@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SphereJump : MonoBehaviour
+public class PlayerCtrl : MonoBehaviour
 {
 	public Rigidbody rb;
 	public Vector3 com;

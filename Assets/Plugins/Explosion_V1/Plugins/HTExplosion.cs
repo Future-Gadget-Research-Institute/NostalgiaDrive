@@ -253,7 +253,7 @@ public class HTExplosion : MonoBehaviour {
 		mesh.triangles = new int[] {0,1,2, 2,3,0 };
 		mesh.uv = new Vector2[] { new Vector2 (0f, 0f), new Vector2 (0f, 1f), new Vector2 (1f, 1f), new Vector2(1f,0f)};
 
-		meshRender.castShadows = false;
+		meshRender.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 		meshRender.receiveShadows = false;
 		mesh.RecalculateNormals();		
 		
